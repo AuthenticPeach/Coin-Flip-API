@@ -33,8 +33,7 @@ app.get('/flip-coins', (request, response) => {
         response.json({heads: heads, tails: tails});
     }else {
         response.send('send me times');
-    }
-    response.send('under development');    
+    } 
 });    
    
 app.listen(5000, () => {
